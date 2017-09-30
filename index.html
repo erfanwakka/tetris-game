@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+<head>
+	<meta charset="utf-8">
+	<title>Tetris</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<audio autoplay loop>
+  		<source src="Tetris.ogg" type="audio/ogg">
+	</audio>
+	<canvas id="tetris" width="240" height="400"></canvas>
+	<div style="display: block;">
+		<button onclick="playerMove(+1)"><i class="fa fa-angle-right"></i></button>
+		<button onclick="playerRotate(+1)"><i class="fa fa-refresh"></i></button>
+		<button onclick="playerMove(-1)"><i class="fa fa-angle-left"></i></button></br>
+		<button onclick="playerDrop()"><i class="fa fa-angle-down"></i></button></br></br>
+		<div id="score"></div>
+	</div>
+	<p class="developer">توسعه دهنده : <a href="mailto: andesta.erfan@gmail.com">عرفان اندستا</a></p>
+	<script src="tetris.js"></script>
+</body>
+</html>

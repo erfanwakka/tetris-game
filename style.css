@@ -1,0 +1,41 @@
+body{
+      background: #202028;
+      color: white;
+      font-family: 'BMitra';
+      font-size: 2em;
+      text-align: center;
+    }
+@font-face {
+    font-family: 'BMitra';
+    src: url('fonts/BMitra.eot');
+    src: url('fonts/BMitra.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BMitra.woff') format('woff'),
+         url('fonts/BMitra.ttf') format('truetype');
+         font-weight: normal;
+         font-style: normal;
+}
+canvas{
+  border: .2em solid #FFF;
+  height: 65vh;
+}
+.developer{
+    width: 100%;
+    margin: 0px auto;
+    font-size: 20px;
+    bottom: 0px;
+    position: fixed;
+}
+.developer a:hover{font-size: 27px;}
+button{
+  width: 40px;
+  height: 25px;
+  border-radius: 8px;
+  border: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #000;
+  background: #FFF;
+}
